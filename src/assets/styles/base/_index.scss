@@ -1,0 +1,19 @@
+@import "mixin.scss";
+
+:root {
+  --back-color: #f0eee9;
+  --line-color: #f0eee9;
+  --action-color: #939597;
+  --accent-color: #f5df4d;
+  --point-color: #00A0B0;
+  --attension--color: #CF5C78;
+}
+
+body{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Noto Sans JP', 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  @include sp {
+    font-size: 14px;
+  }
+}
