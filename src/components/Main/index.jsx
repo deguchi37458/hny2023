@@ -1,5 +1,7 @@
 import { useCallback } from "react";
 
+import Shutter from "../Shutter";
+
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 // import ParticlesParams from '../../assets/particle.json';
@@ -16,6 +18,7 @@ export default function Main() {
   }, []);
   return (
     <>
+      <Shutter />
       <Particles
         className={styles.particles}
         id="tsparticles"
