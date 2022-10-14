@@ -52,7 +52,7 @@ export default function Main() {
           },
           particles:{
             number:{
-              value:125,
+              value:50,
               density:{
                 enable:false,
                 value_area:400
@@ -95,7 +95,7 @@ export default function Main() {
             },
             move:{
               enable:true,
-              speed:10,
+              speed:8,
               direction:"bottom",
               random:false,
               straight:false,
@@ -123,7 +123,6 @@ export default function Main() {
           detectRetina: true,
         }}
       />
-      <h1 className={styles.title}>test</h1>
     </>
   );
 }
