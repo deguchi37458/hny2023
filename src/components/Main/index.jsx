@@ -19,17 +19,13 @@ export default function Main() {
   return (
     <>
       <Shutter />
+      {/* <div className={styles.back}> */}
       <Particles
         className={styles.particles}
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
-          background: {
-            color: {
-              value: "#fff",
-            },
-          },
           fpsLimit: 120,
           interactivity: {
             events: {
@@ -126,6 +122,7 @@ export default function Main() {
           detectRetina: true,
         }}
       />
+      {/* </div> */}
     </>
   );
 }
